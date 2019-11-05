@@ -1,0 +1,188 @@
+.content[data-v-172bb70c] {
+    background: #f5f5f5 !important
+}
+
+.hd[data-v-172bb70c] {
+    background: url(img/bg.63c8e19851.png) center 0 #f37d0f;
+    background-size: auto 100%;
+    padding: .32rem 0
+}
+
+.hd .img[data-v-172bb70c] {
+    margin: 0 .16rem 0 .32rem;
+    width: .96rem;
+    height: .96rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 3px solid hsla(0, 0%, 100%, .4);
+    text-align: center;
+    /* background: url(./img/avatar.76a75b8f17.png) */
+}
+
+.hd .img img[data-v-172bb70c] {
+    width: auto;
+    height: 100%;
+    margin: 0 auto
+}
+
+.hd .name[data-v-172bb70c] {
+    color: #fff;
+    font-size: .24rem;
+    text-align: left
+}
+
+.hd .account[data-v-172bb70c] {
+    color: hsla(0, 0%, 100%, .6)
+}
+
+.b1[data-v-172bb70c] {
+    background-color: #fff;
+    height: .8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    color: rgba(0, 0, 0, .54);
+    position: relative;
+    padding-right: .56rem
+}
+
+.b1[data-v-172bb70c]:after {
+    content: "";
+    position: absolute;
+    right: 5.12px;
+    right: .32rem;
+    top: 50%;
+    width: 3.2px;
+    width: .2rem;
+    height: 3.2px;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0, -50%, 0) rotate(135deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(135deg)
+}
+
+.b1 .cite[data-v-172bb70c] {
+    font-size: .28rem;
+    padding: 0 0 0 .32rem;
+    color: rgba(0, 0, 0, .87)
+}
+
+.b1 .span[data-v-172bb70c],
+.b1 a[data-v-172bb70c] {
+    font-size: .24rem;
+    color: rgba(0, 0, 0, .87)
+}
+
+.b2[data-v-172bb70c] {
+    padding: 0 .8rem;
+    background-color: #fff
+}
+
+.b2 li[data-v-172bb70c] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-content: space-between;
+    align-content: space-between;
+    position: relative;
+    padding: .4rem 0
+}
+
+.b2 li .icon[data-v-172bb70c] {
+    width: .48rem;
+    height: .48rem;
+    margin: 0 auto .16rem;
+    /* background: url(data:image/png;) no-repeat center 0; */
+    background-size: 100% auto
+}
+
+.b2 li span[data-v-172bb70c] {
+    color: rgba(0, 0, 0, .87)
+}
+
+.b2 li.dah .icon[data-v-172bb70c] {
+    /* background-image: url() */
+}
+
+.b2 li.thx .icon[data-v-172bb70c] {
+    background-image: url(/static/img/nav-4.d68723895f.png)
+}
+
+.b2 li em[data-v-172bb70c] {
+    position: absolute;
+    min-width: .28rem;
+    line-height: .28rem;
+    height: .28rem;
+    box-sizing: border-box;
+    padding: 0 .05rem;
+    font-size: .18rem;
+    overflow: hidden;
+    text-align: center;
+    border-radius: .28rem;
+    background: #ed4d41;
+    color: #fff;
+    right: 0;
+    top: 0;
+    transform: translate3d(50%, -50%, 0);
+    -webkit-transform: translate3d(50%, -50%, 0);
+    top: 50%;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translate3d(.1rem, -200%, 0);
+    transform: translate3d(.1rem, -200%, 0);
+    font-style: normal
+}
+
+.items[data-v-172bb70c] {
+    background: #fff
+}
+
+.items li[data-v-172bb70c] {
+    position: relative;
+    color: rgba(0, 0, 0, .54);
+    background: url(/static/img/i-setting.fb9625b3f2.png) no-repeat .32rem;
+    background-size: .48rem auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    line-height: 0;
+    list-style: none
+}
+
+.items li[data-v-172bb70c]:not(:first-child):before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    height: 3px;
+    background: #fff;
+    width: 17.92px;
+    width: 1.12rem
+}
+
+.items li[data-v-172bb70c]:after {
+    content: "";
+    position: absolute;
+    right: 5.12px;
+    right: .32rem;
+    top: 50%;
+    width: 3.2px;
+    width: .2rem;
+    height: 3.2px;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0, -50%, 0) rotate(135deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(135deg)
+}
+
+.items li[data-v-172bb70c]:last-child {
+    border-bottom-color: #fff
+}
+
+.items li.i-member[data-v-172bb70c] {
+    /* background-image: url() */
+}
+
+.items li.i-wallet[data-v-172bb70c] {
+    background-image: url()
+}

@@ -1,0 +1,594 @@
+.component-list-main img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.component-list-main .img {
+    position: relative;
+    overflow: hidden
+}
+
+.component-list-main .bgw {
+    background-color: #fff
+}
+
+.component-list-main .buybtn {
+    width: 2rem;
+    background: #ea625b;
+    border-radius: .05rem;
+    text-align: center;
+    color: #fff;
+    font-size: .24rem;
+    padding: .16rem 0;
+    font-weight: 700
+}
+
+.component-list-main .mauto {
+    margin: 0 auto
+}
+
+.component-list-main .tag {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.component-list-main .tag img {
+    height: .32rem;
+    width: auto
+}
+
+.component-list-main .tag2 {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.component-list-main .tag2 img {
+    display: inline-block;
+    width: 1rem;
+    height: auto
+}
+
+.component-list-main .info {
+    padding: .2rem .27rem;
+    text-align: left
+}
+
+.component-list-main .info .l {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-align: justify;
+    box-align: justify;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.component-list-main .info .l .price {
+    margin-top: 0
+}
+
+.component-list-main .info .l .price.old {
+    font-size: .22rem;
+    color: rgba(0, 0, 0, .54)
+}
+
+.component-list-main .name {
+    font-size: .28rem;
+    color: rgba(0, 0, 0, .87)
+}
+
+.component-list-main .brief,
+.component-list-main .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.component-list-main .brief {
+    margin-top: .06rem;
+    font-size: .22rem;
+    line-height: .3rem;
+    color: rgba(0, 0, 0, .54)
+}
+
+.component-list-main .briefwarp {
+    margin-top: .06rem;
+    font-size: .22rem;
+    line-height: .35rem;
+    color: rgba(0, 0, 0, .54)
+}
+
+.component-list-main .price {
+    font-size: .28rem;
+    color: #ea625b;
+    height: 1.5em;
+    line-height: 1.5em;
+    position: relative;
+    display: inline-block
+}
+
+.component-list-main .price.mt32 {
+    margin-top: .2rem
+}
+
+.component-list-main .price .old {
+    display: inline-block;
+    margin: 0 .1rem;
+    font-size: .22rem;
+    color: rgba(0, 0, 0, .54)
+}
+
+.component-list-main .price span {
+    display: inline-block;
+    margin-left: .04rem;
+    font-size: .2rem
+}
+
+.component-list-main .cells_auto_fill .items {
+    height: auto !important;
+    display: block
+}
+
+.component-list-main .cells_auto_fill .items img {
+    width: 100%
+}
+
+.component-list-main .cells_auto_fill .items .tag img {
+    width: auto
+}
+
+.component-list-main .cells_auto_fill.multi_cell {
+    position: relative
+}
+
+.component-list-main .cells_auto_fill.multi_cell .items {
+    position: absolute
+}
+
+.component-list-main .divider_line {
+    margin: 0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden
+}
+
+.component-list-main .list_one_type1 .item,
+.component-list-main .list_one_type9 .item,
+.component-list-main .list_one_type10 .item,
+.component-list-main .list_one_type12 .item,
+.component-list-main .list_one_type14 .item {
+    position: relative;
+    width: 100%;
+    display: block
+}
+
+.component-list-main .list_one_type2 .item {
+    width: 100%
+}
+
+.component-list-main .list_one_type2 .img {
+    width: 3.6rem;
+    height: 3.6rem
+}
+
+.component-list-main .list_one_type2 .info {
+    padding: .64rem .12rem 0 .32rem;
+    box-sizing: border-box;
+    width: 3.6rem;
+    height: 3.6rem
+}
+
+.component-list-main .list_one_type3 .item {
+    width: 100%
+}
+
+.component-list-main .list_one_type3 .img {
+    width: 3.6rem;
+    height: 3.6rem
+}
+
+.component-list-main .list_one_type3 .info {
+    width: 3.6rem;
+    padding: .64rem .12rem 0 .32rem
+}
+
+.component-list-main .list_one_type11 .item {
+    width: 100%
+}
+
+.component-list-main .list_one_type11 .img {
+    width: 3rem;
+    height: 3rem
+}
+
+.component-list-main .list_one_type11 .info {
+    padding: .64rem .12rem 0 .32rem;
+    box-sizing: border-box;
+    width: 4.2rem;
+    height: 3rem
+}
+
+.component-list-main .list_one_type14 .item {
+    padding: 0 .12rem
+}
+
+.component-list-main .list_two_type1 .item {
+    width: 3.6rem
+}
+
+.component-list-main .list_two_type1 .item:first-child {
+    margin-right: .04rem
+}
+
+.component-list-main .list_two_type1 .img {
+    width: 3.6rem;
+    height: 3.6rem
+}
+
+.component-list-main .list_two_type5 .item {
+    width: 3.6rem
+}
+
+.component-list-main .list_two_type5 .item .big {
+    width: 3.6rem;
+    height: 2.04rem
+}
+
+.component-list-main .list_two_type5 .item:first-child {
+    margin-right: .04rem
+}
+
+.component-list-main .list_two_type2 {
+    box-sizing: border-box
+}
+
+.component-list-main .list_two_type2 .item:first-child {
+    width: 2.4rem;
+    margin-right: .04rem
+}
+
+.component-list-main .list_two_type2 .item:first-child .big {
+    width: 2.4rem;
+    height: 3.2rem
+}
+
+.component-list-main .list_two_type2 .item:last-child {
+    width: 4.8rem
+}
+
+.component-list-main .list_two_type2 .item:last-child .big {
+    width: 4.8rem;
+    height: 3.2rem
+}
+
+.component-list-main .list_two_type3 {
+    box-sizing: border-box
+}
+
+.component-list-main .list_two_type3 .item:last-child {
+    width: 2.4rem;
+    margin-left: .04rem
+}
+
+.component-list-main .list_two_type3 .item:last-child .big {
+    width: 2.4rem;
+    height: 3.2rem
+}
+
+.component-list-main .list_two_type3 .item:first-child {
+    width: 4.8rem
+}
+
+.component-list-main .list_two_type3 .item:first-child .big {
+    width: 4.8rem;
+    height: 3.2rem
+}
+
+.component-list-main .list_two_type10 {
+    box-sizing: border-box
+}
+
+.component-list-main .list_two_type10 .item:first-child {
+    width: 4.8rem;
+    margin-right: .04rem
+}
+
+.component-list-main .list_two_type10 .item:first-child .big {
+    width: 4.8rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_two_type10 .item:last-child {
+    width: 2.4rem
+}
+
+.component-list-main .list_two_type10 .item:last-child .big {
+    width: 2.4rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_two_type11 {
+    box-sizing: border-box
+}
+
+.component-list-main .list_two_type11 .item:last-child {
+    width: 4.8rem;
+    margin-left: .04rem
+}
+
+.component-list-main .list_two_type11 .item:last-child .big {
+    width: 4.8rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_two_type11 .item:first-child {
+    width: 2.4rem
+}
+
+.component-list-main .list_two_type11 .item:first-child .big {
+    width: 2.4rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_two_type12 .item .big {
+    width: 3.6rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_two_type12 .item:first-child {
+    margin-right: .04rem
+}
+
+.component-list-main .list_two_type13 {
+    padding: 0 .12rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center
+}
+
+.component-list-main .list_two_type13 .item {
+    width: 3.4rem
+}
+
+.component-list-main .list_two_type13 .item:first-child {
+    margin-right: .12rem
+}
+
+.component-list-main .list_three_type1 .item {
+    width: 2.4rem;
+    box-sizing: border-box
+}
+
+.component-list-main .list_three_type1 .item .big {
+    width: 2.4rem;
+    height: 2.4rem
+}
+
+.component-list-main .list_three_type1 .item:first-child {
+    margin-right: .04rem
+}
+
+.component-list-main .list_three_type1 .item:last-child {
+    margin-left: .04rem
+}
+
+.component-list-main .list_one_type15 .goods-list {
+    padding: 0 .16rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item {
+    border-radius: .1rem;
+    overflow: hidden
+}
+
+.component-list-main .list_one_type15 .goods-list .item .img-box {
+    height: 3.66rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item .info-box.multi-sku .text {
+    width: 2.8rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item .info-box.multi-sku .action {
+    width: 1.64rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item .info-box.multi-sku .action:last-child {
+    margin-left: .24rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item .info-box .text {
+    width: 4.12rem
+}
+
+.component-list-main .list_one_type15 .goods-list .item .info-box .action {
+    display: block;
+    text-align: center
+}
+
+.component-list-main .list_one_type16 .goods-list {
+    padding: 0 .16rem
+}
+
+.component-list-main .list_one_type16 .goods-list .item {
+    border-radius: .1rem;
+    overflow: hidden;
+    text-align: left
+}
+
+.component-list-main .list_one_type16 .goods-list .item .img-box {
+    width: 3.38rem;
+    height: 3.38rem
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box {
+    width: 3.5rem;
+    height: 3.38rem;
+    padding: .28rem
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box.multi-sku .action {
+    width: 1.28rem;
+    text-align: center
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box.multi-sku .action:last-child {
+    margin-left: .24rem
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .text {
+    height: 1.94rem;
+    padding-top: 0;
+    padding-right: 0
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .name {
+    line-height: 2em
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .brief {
+    white-space: normal;
+    overflow: auto;
+    height: auto;
+    line-height: 1.5em
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .action-box {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .action {
+    display: block
+}
+
+.component-list-main .list_one_type16 .goods-list .item .info-box .price {
+    text-align: left
+}
+
+.component-list-main .list_two_type14 .goods-list {
+    padding: 0 .16rem
+}
+
+.component-list-main .list_two_type14 .goods-list .item-md {
+    width: 3.38rem;
+    border-radius: .1rem;
+    overflow: hidden
+}
+
+.component-list-main .list_two_type14 .goods-list .item-md .img-box {
+    height: 3.38rem
+}
+
+.component-list-main .list_two_type14 .goods-list .item-md .info-box.multi-sku .action {
+    width: 1.28rem;
+    margin: 0
+}
+
+.component-list-main .list_two_type14 .goods-list .item-md .info-box.multi-sku .action:first-child {
+    margin-right: .24rem
+}
+
+.component-list-main .list_two_type14 .goods-list .item-md .info-box .action {
+    display: block
+}
+
+.component-list-main .list_three_type4 .goods-list {
+    padding: 0 .16rem
+}
+
+.component-list-main .list_three_type4 .goods-list .item-xs {
+    width: 2.21rem;
+    border-radius: .06rem;
+    overflow: hidden
+}
+
+.component-list-main .list_three_type4 .goods-list .item-xs:first-child {
+    margin-left: 0
+}
+
+.component-list-main .list_three_type4 .goods-list .item-xs .img-box {
+    height: 2.21rem
+}
+
+.component-list-main .list_four_type3 .goods-list {
+    padding: 0 .16rem
+}
+
+.component-list-main .list_four_type3 .goods-list .item-xxs {
+    width: 1.63rem;
+    border-radius: .06rem;
+    overflow: hidden
+}
+
+.component-list-main .list_four_type3 .goods-list .item-xxs .img-box {
+    height: 1.63rem
+}
+
+.component-list-main .list_action_title .h {
+    background: #fff;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .28rem;
+    text-align: center
+}
+
+.component-list-main .list_action_title .h a {
+    display: block
+}
+
+.component-list-main .list_action_title .h .ti {
+    color: rgba(0, 0, 0, .6)
+}
+
+.component-list-main .list_broadcast .box {
+    overflow: hidden;
+    height: .8rem;
+    width: 100%;
+    font-size: .24rem;
+    color: #000
+}
+
+.component-list-main .list_broadcast .img {
+    width: 1.5rem
+}
+
+.component-list-main .list_broadcast .img img {
+    width: 1.5rem;
+    height: auto
+}
+
+.component-list-main .list_broadcast .sc_title {
+    width: 5rem;
+    font-size: .24rem;
+    line-height: .28rem;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    padding-left: .2rem;
+    border-left: 1px solid #b2b2b2;
+    white-space: nowrap…
+}
+
+.component-list-main .category_title {
+    background: #fff;
+    font-size: .28rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: .2rem;
+    height: 3.29rem;
+    line-height: 3.29rem;
+    overflow: hidden;
+}
